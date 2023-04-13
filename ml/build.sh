@@ -1,0 +1,1 @@
+docker build --network host -t xxkaishui/ml_ritm:1.0 .
