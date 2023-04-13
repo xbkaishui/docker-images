@@ -1,0 +1,1 @@
+docker build --build-arg BASE_IMAGE_TAG=1.13.0-py3.10.10-cuda11.7.1-ubuntu20.04 --network host -t xxkaishui/web_base:1.0.cuda11.7.1 .

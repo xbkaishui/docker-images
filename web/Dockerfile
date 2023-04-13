@@ -1,4 +1,5 @@
-FROM xxkaishui/pytorch:1.13.0-py3.10.10-ubuntu20.04
+ARG BASE_IMAGE_TAG
+FROM xxkaishui/pytorch:${BASE_IMAGE_TAG}
 
 # copy from https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker
 COPY requirements.txt /tmp/requirements.txt

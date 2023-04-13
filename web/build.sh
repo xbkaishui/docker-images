@@ -1,1 +1,1 @@
-docker build --network host -t xxkaishui/web_base:1.0 .
+docker build --build-arg BASE_IMAGE_TAG=1.13.0-py3.10.10-ubuntu20.04 --network host -t xxkaishui/web_base:1.0 .
