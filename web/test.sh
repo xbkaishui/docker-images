@@ -1,0 +1,1 @@
+docker run -d --rm -p 18080:80 xxkaishui/web_base:1.0

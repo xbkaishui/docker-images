@@ -1,0 +1,1 @@
+docker build --network host -t xxkaishui/web_base:1.0 .
